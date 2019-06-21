@@ -13,7 +13,7 @@ min_id = testlist2.index(min(testlist2))
 max_id = testlist2.index(max(testlist2))
 
 m = 1
-for i in range(min_id+1, max_id):
+for i in range(min_id + 1, max_id):
     m *= testlist2[i]
 print('Sum of numbers is:', pozsum,
       '\nMultiple of numbers, \n'

@@ -9,9 +9,10 @@ w1 = words
 words = set(words)
 rows = ()
 
-if words.intersection(r1) and words.intersection(r2) or words.intersection(r1) and words.intersection(r3):
-    print ('Error: litters in word are from different rows')
+if words.intersection(r1) and words.intersection(r2)\
+        or words.intersection(r1) and words.intersection(r3):
+    print('Error: litters in word are from different rows')
 elif words.intersection(r2) and words.intersection(r3):
-    print ('Error: litters in word are from different rows')
+    print('Error: litters in word are from different rows')
 else:
     print(w1)
