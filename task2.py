@@ -7,7 +7,7 @@ root = 0
 
 for x in range(-100, 101):
     if 0 == A * x * x * x + B * x * x + C * x + D:
-        root = root + 1
+        root += 1
         print('x', root, '=', x)
 if root == 0:
     print('there no full numbers')

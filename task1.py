@@ -9,4 +9,4 @@ for i in range(1, num + 1):
 
 scores.sort()
 
-print("Second place score from list is:", scores[-2])
+print("Second place score from list is:", scores[-3])
