@@ -44,6 +44,6 @@ if args.hours:
     print("Hours of the day opened: ", str(h_ofday))
 if args.user:
     if args.repo is not None:
-        print("Last user, who opened repo number", args.repo, "is:",  u_opened)
+        print("Last user, who opened repo number", args.repo, "is:", u_opened)
     else:
         pull_num = input('Please type repo\'s number: ')
