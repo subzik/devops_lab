@@ -14,8 +14,7 @@ spl = site.getsitepackages()
 wpip = subprocess.getoutput("which pip")
 instpacks = subprocess.getoutput("pip freeze")
 pypath = sys.path
-e = os.environ['VIRTUAL_ENV'].split('/')
-env_name = e[len(e) - 1]
+env_name = sys.prefix
 inst_packs = []
 for requirements in freeze(local_only=True):
     inst_packs.append(requirements)
