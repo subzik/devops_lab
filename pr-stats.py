@@ -16,7 +16,7 @@ parser.add_argument("-d", "--dayofweek", help="Day of the week opened", action="
 parser.add_argument("-ho", "--hours", help="Hours of the day opened", action="store_true")
 parser.add_argument('-wo', "--weeks", help='Weeks opened', action="store_true")
 parser.add_argument("-lu", "--last_user", help="user", action="store_true")
-parser.add_argument("--token", type=str, default="dd286dd8f2d0ed9d46fb98c943c7a00456d72037")
+parser.add_argument("-t", "--token", required=True, type=str)
 
 
 args = parser.parse_args()

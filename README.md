@@ -1,12 +1,12 @@
 # ps-stats
-### The application for finding repo statistics on GitHub
+### The application for looking repo statistics on GitHub
 
 ---
 For starting, please run ps-stats from directory, where file located.
 
-Running the application with options:
+Running the application with required options:
 
-**python pr-stats --repo `<num_repo>`**
+**python pr-stats --repo `<num_repo>` --token `<your token>`**
 
 `-h | --help`  - take a help
 
