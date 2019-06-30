@@ -47,10 +47,9 @@ if args.dayofweek:
 if args.hours:
     print("Hours of the day opened: ", str(h_ofday))
 if args.weeks:
-    print('Week_opened_PR: ',  week)
+    print('Week_opened_PR: ', week)
 if args.last_user:
     if args.repo is not None:
         print("User, who opened repo number", args.repo, "is:", u_opened)
     else:
         pull_num = input('Please type repo\'s number: ')
-
