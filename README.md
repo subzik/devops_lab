@@ -15,16 +15,20 @@ Running the application with options:
 
  `-v | --version`   - version
  
-`-u` - Last user, who opened repo number
- 
-`-o` - day of the week opened
+`-lu` - Last user, who opened repo number
 
-`-ho` hours of the day opened
+`-we  | --weeks` Weeks opened
+ 
+`-o` - Info about time open pull
+
+`-ho` Hours of the day opened
+
+`-d | --dayofweek` Day of the week opened
 
 For opening repositories on browser, **[click](https://github.com/alenaPy/devops_lab/pulls)**. 
 
 
 ```html
-version 1.0
+version 1.1
 ```
 
